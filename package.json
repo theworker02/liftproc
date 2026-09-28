@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/liftproc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lift HTML/Markdown proc fragments safely for docs pipelines.",
+  "bin": {
+    "liftproc": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/liftproc.git"
+  },
+  "homepage": "https://theworker02.github.io/liftproc/",
+  "keywords": [
+    "lift",
+    "proc",
+    "markup",
+    "cli",
+    "toolkit"
+  ]
+}
